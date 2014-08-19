@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="wikia">
+    <classes>
+      <class name="com.wikiahomework.tests.Homework" />
+         <methods>
+            <include name="homework1" />
+         </methods>
+    </classes>
+  </test>
+</suite>

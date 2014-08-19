@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="wikia(failed)">
+    <classes>
+      <class name="com.wikiahomework.tests.Homework">
+        <methods>
+          <include name="start"/>
+          <include name="homework1"/>
+        </methods>
+      </class> <!-- com.wikiahomework.tests.Homework -->
+    </classes>
+  </test> <!-- wikia(failed) -->
+</suite> <!-- Failed suite [Suite] -->
