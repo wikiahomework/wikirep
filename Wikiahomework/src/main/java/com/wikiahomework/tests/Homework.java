@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class Homework extends Main {
 
+    /*comment */
     @Test
     public void homework1() {
         HomePage homePage = new HomePage(driver);
