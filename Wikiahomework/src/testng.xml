@@ -5,6 +5,7 @@
       <class name="com.wikiahomework.tests.Homework" />
          <methods>
             <include name="homework1" />
+            <include name="homework2" />
          </methods>
     </classes>
   </test>

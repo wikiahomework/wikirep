@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18624" started-at="2014-08-19T17:30:51Z" finished-at="2014-08-19T17:31:09Z">
+  <suite name="Suite" duration-ms="21129" started-at="2014-08-19T22:04:48Z" finished-at="2014-08-19T22:05:09Z">
     <groups>
     </groups>
-    <test name="wikia" duration-ms="18624" started-at="2014-08-19T17:30:51Z" finished-at="2014-08-19T17:31:09Z">
+    <test name="wikia" duration-ms="21129" started-at="2014-08-19T22:04:48Z" finished-at="2014-08-19T22:05:09Z">
       <class name="com.wikiahomework.tests.Homework">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.wikiahomework.tests.Homework@2d554825]" name="start" is-config="true" duration-ms="11712" started-at="2014-08-19T19:30:51Z" finished-at="2014-08-19T19:31:02Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.wikiahomework.tests.Homework@614c5515]" name="start" is-config="true" duration-ms="6110" started-at="2014-08-20T00:04:48Z" finished-at="2014-08-20T00:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="homework1()[pri:0, instance:com.wikiahomework.tests.Homework@2d554825]" name="homework1" duration-ms="6897" started-at="2014-08-19T19:31:02Z" finished-at="2014-08-19T19:31:09Z">
+        <test-method status="PASS" signature="homework1()[pri:0, instance:com.wikiahomework.tests.Homework@614c5515]" name="homework1" duration-ms="4756" started-at="2014-08-20T00:04:54Z" finished-at="2014-08-20T00:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homework1 -->
+        <test-method status="PASS" signature="homework2()[pri:0, instance:com.wikiahomework.tests.Homework@614c5515]" name="homework2" duration-ms="10252" started-at="2014-08-20T00:04:59Z" finished-at="2014-08-20T00:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homework2 -->
       </class> <!-- com.wikiahomework.tests.Homework -->
     </test> <!-- wikia -->
   </suite> <!-- Suite -->

@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\waleskaa\Adam\Automation 2.0\Wikiahomework\src\testng.xml</span>
+                    <span>C:\Users\waleskaa\Adam\WikiaRepo\wikirep\Wikiahomework\src\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.wikiahomework.tests.Homework" hash-for-method="homework1">homework1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.wikiahomework.tests.Homework" hash-for-method="homework2">homework2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -129,12 +134,19 @@
                   <span class="method-name">homework1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homework2">
+                  </a> <!-- homework2 -->
+                  <span class="method-name">homework2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\waleskaa\Adam\Automation 2.0\Wikiahomework\src\testng.xml</span>
+            <span class="header-content">C:\Users\waleskaa\Adam\WikiaRepo\wikirep\Wikiahomework\src\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,6 +158,7 @@
       &lt;class name=&quot;com.wikiahomework.tests.Homework&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;homework1&quot;/&gt;
+          &lt;include name=&quot;homework2&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.wikiahomework.tests.Homework --&gt;
     &lt;/classes&gt;
@@ -187,16 +200,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homework1')
+data.setCell(0, 1, 'homework2')
 data.setCell(0, 2, 'com.wikiahomework.tests.Homework')
-data.setCell(0, 3, 6897);
+data.setCell(0, 3, 10252);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'homework1')
+data.setCell(1, 2, 'com.wikiahomework.tests.Homework')
+data.setCell(1, 3, 4756);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -223,13 +240,17 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.wikiahomework.tests.Homework</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-class before">
                 <span class="method-name">start</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">homework1</span>
-                <span class="method-start">11712 ms</span>
+                <span class="method-start">6112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homework2</span>
+                <span class="method-start">10868 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

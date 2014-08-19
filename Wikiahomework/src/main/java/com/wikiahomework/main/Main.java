@@ -5,29 +5,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 
 public class Main {
 
     public String title;
-
     public WebDriver driver;
     public WebDriverWait wait;
     public WebElement Element;
     public FirefoxProfile firefoxProfile;
 
-    @BeforeMethod
+    @BeforeClass
     public void start() {
         firefoxProfile = new FirefoxProfile();
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\waleskaa\\Adam\\WikiaRepo\\chromedriver.exe");
+        //driver = new ChromeDriver();
         driver = new FirefoxDriver();
         driver.get("http://testhomework.wikia.com/");
-        //title = driver.getTitle();
-        //System.out.println(title);
-        //WebDriver driver = new RemoteWebDriver("http://localhost:9515", DesiredCapabilities.chrome());
-        //driver = new ChromeDriver();
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\waleskaa\\Downloads\\chromedriver\\chromedriver.exe");
-        //WebDriver driver = new ChromeDriver();
-        //driver.get("http://etmf-dev.roche.com/D2/#d2");
     }
 
     //@AfterMethod
